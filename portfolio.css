@@ -1,0 +1,16 @@
+article {
+  grid-template-columns: 1fr 1fr;
+}
+.munka {
+  display: inline-block;
+  grid-area: m;
+  text-align: justify;
+  font-size: 15px;
+  width: 200px;
+}
+.munka img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

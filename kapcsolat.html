@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kapecska</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.google.com/specimen/Teko?preview.size=24&preview.text_type=alphabet&query=teko#standard-styles"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p>Trapi oldala</p>
+      </header>
+      <article>
+        <form action="">
+          <label for="nev">NÉV:</label><br />
+          <input
+            type="text"
+            id="nev"
+            name="nev"
+            placeholder="masodik rambo szandokan"
+          /><br />
+          <label for="email">EMAIL CÍM:</label><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="usernametaken@email.com"
+          /><br />
+          <p>Ha felszeretné venni a kapcsolatot ideírjon!</p>
+          <textarea
+            name="message"
+            rows="10"
+            cols="50"
+            placeholder="Ide írjon!"
+          ></textarea>
+          <br /><br />
+          <label for="elfogadas">
+            Elfogadja, hogy email címe és neve rögzitésre kerül a
+            rendszerünkben?</label
+          ><br />
+          <input
+            type="checkbox"
+            id="elfogadas"
+            name="elfogadas"
+            value="elfogadas"
+          />
+          <br /><br />
+          <button onClick="window.location.reload();">Visszaállítás</button>
+          <button onClick="window.location.reload();">Küldés</button>
+        </form>
+      </article>
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="hobbi.html">Hobbiaim</a></li>
+            <li><a href="portfolio.html">Portfólió</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <footer>
+        <p>&COPY; Minden jog fenntartva</p>
+      </footer>
+    </main>
+  </body>
+</html>
